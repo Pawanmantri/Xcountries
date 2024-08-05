@@ -1,0 +1,28 @@
+/* src/Countries.css */
+.countries-container {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr); /* 7 columns */
+    gap: 20px; /* Space between the flags */
+    justify-items: center;
+    padding: 20px; /* Add padding around the container */
+  }
+  
+  .country {
+    text-align: center;
+    padding: 10px; /* Add padding inside each country container */
+    border: 1px solid #ccc; /* Use a lighter border color */
+    border-radius: 10px; /* Make the corners rounded */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    width: 150px; /* Set a fixed width */
+    height: 150px; /* Set a fixed height */
+  }
+  
+  .country img {
+    max-width: 100%; /* Ensure the image fits within the container */
+    max-height: 100%; /* Ensure the image fits within the container */
+    display: block;
+  }
+  
